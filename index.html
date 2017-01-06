@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Celebrate VIPSHOP'S 8th anniversary ">
+    <title>8的游行</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="assets/css/parade.css"/>
+    <script src="libs/Detector.min.js"></script>
+</head>
+<body>
+<div id="startscreen">
+    <div id="startButton"></div>
+</div>
+<div id="progress">
+    <span id="message">Loading ...</span>
+    <div id="progressbar" class="shadow">
+        <div id="bar" class="shadow"></div>
+    </div>
+</div>
+
+<div id="gameover" style="display:none"  onclick="window.location.reload();">
+        Play Again
+</div>
+<audio autoplay preload="auto" controls loop id="startBgm">
+    <source src="assets/audio/loading_bgm.ogg" type="audio/ogg"/>
+    <source src="assets/audio/loading_bgm.mp3" type="audio/mpeg"/>
+    您的浏览器不支持音频播放。
+</audio>
+<div id="container">
+</div>
+<script type="application/javascript">
+    var startBgm = document.getElementById("startBgm");
+    startBgm.volume = 0.5;
+    //检查是否支持weabgl
+    if (!Detector.webgl) Detector.addGetWebGLMessage();
+</script>
+<script src="libs/jquery-1.12.4.min.js"></script>
+<script>
+    $(document).on("mobileinit", function () {
+        $.mobile.autoInitializePage = false;
+    });
+</script>
+<script src="libs/three.min.js"></script>
+<script src="libs/OrbitControls.js"></script>
+<script src="libs/CurveExtras.js"></script>
+<!--delete later-->
+<script src="libs/ParadeDragControls.js"></script>
+<script src="libs/dat.gui.min.js"></script>
+<script src="libs/stats.min.js"></script>
+<script src="libs/OBJLoader.js"></script>
+<script src="libs/MTLLoader.js"></script>
+<script src="libs/LoaderUtils.js"></script>
+<script src="libs/jquery.mobile-1.4.5.min.js"></script>
+<script src="libs/q.min.js"></script>
+<script src="libs/jszip.min.js"></script>
+<script src="js/parade.js"></script>
+</body>
+</html>

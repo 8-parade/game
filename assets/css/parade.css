@@ -1,0 +1,118 @@
+html{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    color: #000;
+    font-family:Monospace;
+    font-size:13px;
+    text-align:center;
+    font-weight: bold;
+    background-color: #ffc4d5;
+    margin: 0px;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    font-family :Helvetica;
+}
+
+#startscreen{
+    background: #ffc4d5 url(images/starting_screen.jpg) no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+
+#startButton{
+    position: absolute;
+    font-family: Monospace;
+    font-size: 18px;
+    text-align: center;
+    top: 70%;
+    left: 40%;
+    width: 400px;
+    height: 110px;
+}
+
+#info {
+    position: absolute;
+    top: 0px; width: 100%;
+    padding: 5px;
+    font-family: Monospace;
+    font-size: 13px;
+    text-align: center;
+    z-index:100;
+}
+
+#progress {
+    color: #f10180;
+    top: 55%;
+    left: 50%;
+    font-size: 3em;
+    font-variant: small-caps;
+    font-weight: bold;
+    position: absolute;
+    z-index: 100;
+    margin-left: -125px;
+    text-align: center;
+    text-shadow: #000 0px 0px 10px;
+    display: none;
+}
+#startBgm{
+    display: none;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.shadow {
+    -moz-box-shadow: 0px 0px 5px #000;
+    -webkit-box-shadow: 0px 0px 5px #000;
+    box-shadow: 0px 0px 5px #000;
+}
+
+#progressbar {
+    text-align: center;
+    background: white;
+    width: 250px;
+    height: 10px;
+}
+
+#bar {
+    background:#f10180;
+    width:50px;
+    height:10px;
+}
+
+.enabled {
+    color: lime!important;
+    cursor:pointer;
+}
+
+#gameover{
+    position:absolute;
+    color: #f10180;
+    font-size: 2em;
+    font-weight: bold;
+    z-index: 101;
+    text-align: center;
+    top: 50%;
+    left: 80%;
+}
+
+.enabled:hover {
+    text-shadow: #0f0 0px 0px 5px !important;
+}
+
+.disabled {
+    background:gray;
+    cursor:default;
+}
+
+a { color:red }
+

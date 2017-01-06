@@ -1,0 +1,4 @@
+
+1   解压。deploy.zip
+2， 点击 start_server2x.bat 
+3, 通过浏览器输入 localhost:8000 或者 127.0.0.1:8000  就可以看到了。

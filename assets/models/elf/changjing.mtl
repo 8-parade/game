@@ -1,0 +1,52 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# �������ļ�:05.01.2017 01:26:47
+
+newmtl YELLOW_MATTE
+	Ns 5.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0706 0.0745 0.0000
+	Kd 0.8588 0.8706 0.0549
+	Ks 0.2400 0.2400 0.2400
+	Ke 0.0000 0.0000 0.0000
+
+newmtl BRUSHED_METAL
+	Ns 75.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.4350 0.4350 0.4350
+	Ke 0.0000 0.0000 0.0000
+	map_Ka assets/models/elf/changjinglu.tga
+	map_Kd assets/models/elf/changjinglu.tga
+
+newmtl ORANGE_PLSTC
+	Ns 53.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0706 0.0235 0.0000
+	Kd 0.8118 0.3843 0.1333
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl BLACK_MATTE
+	Ns 5.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0078 0.0078 0.0078
+	Ks 0.2400 0.2400 0.2400
+	Ke 0.0000 0.0000 0.0000
